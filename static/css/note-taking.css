@@ -1,0 +1,43 @@
+/* h1{
+    color:thistle; 
+    font-size: 100px;
+}
+
+img{
+    width: 400px;
+} */
+
+/* probable keep to pixels for size at this point
+reference what i want to change (e.g. header 1, h1, or image ,img,)
+i need to add a 
+    <svelte:head>
+        <link rel="stylesheet" href="css/main.css" />
+    </svelte:head>  
+to every page that i want the css changes to apply to
+
+
+if i have multiple h1s, 
+    h1#(idName){
+        whatever . . .
+    }
+            (this will only affect specifically h1(idName)
+or
+    #(idName){
+        etc etc
+    }
+            (this affects everything called idName regardless of what it is)
+    on the layout page for example, i will make the h1 like
+            <h1 id="nameOfTitle">
+
+if i want to affect an element of multiple things, separate by a comma
+    idName1, idName2, idName3{
+        whatever i want to change
+    }
+or to be more specific i can add classes
+    which is dding classes which i can apply across multiple things
+
+            i then in css will write the class after a period then wha i want the class to do
+                .className{
+                    what i want
+                }
+ */
