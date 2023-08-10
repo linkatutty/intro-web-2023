@@ -1,0 +1,9 @@
+h1 {
+    font-size: 24px;
+    color:mediumpurple;
+    font-style:italic;
+}
+h1, .hover {
+    text-align:center;
+}
+.hover:hover{ background-color:cornflowerblue; color:lavender}
