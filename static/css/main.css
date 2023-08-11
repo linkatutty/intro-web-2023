@@ -11,7 +11,7 @@ h1, .hover { text-align:center; }
 body {
     margin: 0;
     padding: 0;
-    /* min-height: 100vh; */
+    min-height: 10vh; 
     background-color:lavenderblush;
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -24,7 +24,7 @@ body, .nav, .menu {
 
 .nav {
     position: relative;
-    background-color: #b3c5d6;
+    background-color: #a7c1da;
     padding: 20px;
     transition: 0.5s;
     border-radius: 50px;
@@ -80,7 +80,7 @@ body, .nav, .menu {
 }
 
 .nav input:checked ~ span {
-    background-color: #faa8c3;
+    background-color: #f2abfc;
 }
 
 .nav span:nth-child(2) {
