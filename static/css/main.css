@@ -8,6 +8,8 @@ h1, .hover { text-align:center; }
 
 .hover:hover{ background-color:cornflowerblue; color:lavender; }
 
+/* #homePageTitle { min-height: 30vh; } */ 
+
 body {
     margin: 0;
     padding: 0;
