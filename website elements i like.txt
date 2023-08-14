@@ -59,13 +59,39 @@ https://uiverse.io/boryanakrasteva/hard-pig-16
 
 
 
-https://monokai.nl/2019/japan/
+******* https://monokai.nl/2019/japan/  ********
 i really like this website, this type o vibe
 - have in interactable map? so users can click a part of japan and it will take them straight to that section
 - have a normal gallery option (keep menu)
 - dont have it be an endless scroll, maybe have like a timeline bar on th side so users can skip to a specific part?
 
-https://kurokawawonderland.jp/
+********   https://kurokawawonderland.jp/   ********
 this menu is sick
 - split into two?? have "headers" and then info sides
 - smooth transitions, i think its just linking to another part of one long page and transitioning there
+
+********   https://homunculus.jp/   ********
+the menu on this is also really cool
+- have timeline like this menu?
+- i like having an easy clean home screen instead of going straight to content
+- have the initial to go like the page after home on this website, have options on where to go or a final option thats a timeline scroll?
+
+https://www.details.co.jp/cases/
+menu on this is also really cool
+
+https://ryota-sato.com/
+really clean loading screen + the cursor change is nice
+
+https://ayasasakura.com/en/
+cool effect when hovering over menu button or logo
+
+********   https://emergencemagazine.org/feature/shikoku-pilgrimage/#/index   ********
+have a timeline like the contents page here?
+i like how when you hover over credits it shows more info instead of having it always displayed
+
+https://jack-jack-photo.com/
+initial scroll for this is cute, having static and dynamic elements with scroll
+
+
+
+have menu button to the side instead of in header????
