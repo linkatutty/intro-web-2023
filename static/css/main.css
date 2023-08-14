@@ -14,7 +14,7 @@ div {
     font-family:'Courier New', Courier, monospace;
 }
 
-body, .nav, .menu {
+body, .nav, .menu { /* NNEED TO RENAME BODY, BODY IS THE ISSUE */
     display: flex;
     justify-content: center;
     align-items: center;
