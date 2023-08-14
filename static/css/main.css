@@ -8,7 +8,7 @@ h1, .hover { text-align:center; }
 
 .hover:hover{ background-color:cornflowerblue; color:lavender; }
 
-/* #homePageTitle { min-height: 30vh; } */ 
+
 
 body {
     margin: 0;
@@ -54,7 +54,7 @@ body, .nav, .menu {
 .menu li a {
     text-decoration: none;
     color: #666;
-    text-transform: uppercase;
+    font-size: 30px;
     font-weight: 600;
     transition: 0.5s;
 }
@@ -82,7 +82,7 @@ body, .nav, .menu {
 }
 
 .nav input:checked ~ span {
-    background-color: #f2abfc;
+    background-color: #666;
 }
 
 .nav span:nth-child(2) {
