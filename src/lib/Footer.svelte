@@ -1,3 +1,3 @@
-<footer class="hover">
-    this is the footer!
+<footer>
+    <div> this is the footer! </div>
 </footer>
