@@ -1,5 +1,5 @@
 <header class="nav">
-  <input type="checkbox">
+    <input type="checkbox">
     <span></span>
     <span></span>
     <div class="menu">
