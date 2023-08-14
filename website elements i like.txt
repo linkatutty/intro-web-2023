@@ -56,3 +56,16 @@ https://www.awwwards.com/inspiration/tag-deconstruction-jw-s-2023
 
 fun search bar??
 https://uiverse.io/boryanakrasteva/hard-pig-16
+
+
+
+https://monokai.nl/2019/japan/
+i really like this website, this type o vibe
+- have in interactable map? so users can click a part of japan and it will take them straight to that section
+- have a normal gallery option (keep menu)
+- dont have it be an endless scroll, maybe have like a timeline bar on th side so users can skip to a specific part?
+
+https://kurokawawonderland.jp/
+this menu is sick
+- split into two?? have "headers" and then info sides
+- smooth transitions, i think its just linking to another part of one long page and transitioning there
