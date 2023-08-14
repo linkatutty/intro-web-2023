@@ -1,4 +1,4 @@
-h1, .footerText, .menu { /* absolutely need to rename, just placeholder for now! */
+h1, footer, .menu { /* absolutely need to rename, just placeholder for now! */
     font-size: 24px;
     /* color:mediumpurple; */
     /* font-style:italic; */
@@ -7,14 +7,14 @@ h1, .footerText, .menu { /* absolutely need to rename, just placeholder for now!
 }
 
 footer{
-    text-align: center;
     background-color:lightsteelblue; 
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
-.nav, .menu { /* NNEED TO RENAME BODY, BODY IS THE ISSUE */
+/* everything here down is css for the current menu i have */
+.nav, .menu { 
     display: inline-flex;
     justify-content: center;
     align-items: center;
