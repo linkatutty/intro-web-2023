@@ -95,3 +95,4 @@ initial scroll for this is cute, having static and dynamic elements with scroll
 
 
 have menu button to the side instead of in header????
+header that disappears when scroll?? reappears when scroll up?
