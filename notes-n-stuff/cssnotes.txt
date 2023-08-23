@@ -1,4 +1,4 @@
-/* h1{
+ h1{
     color:thistle; 
     font-size: 100px;
 }
@@ -40,4 +40,4 @@ or to be more specific i can add classes
                 .className{
                     what i want
                 }
- */
+
