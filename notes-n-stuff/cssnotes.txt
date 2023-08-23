@@ -20,7 +20,7 @@ if i have multiple h1s,
     h1#(idName){
         whatever . . .
     }
-            (this will only affect specifically h1(idName)
+            (this will only affect specifically h1(idName))
 or
     #(idName){
         etc etc
