@@ -14,3 +14,94 @@ footer{
 }
 
 /* AHHHH */
+
+/* need to change colours, fonts, closing x, and need to figure out way to get menu to close when you click on an option */
+
+    .fillers{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align:center;
+   }
+   .overlay{
+    position:absolute;
+    background:#DAF7A6;
+    height:100%;
+    width:100%;
+    text-align: center;
+     width:0px;
+     overflow:hidden;
+     transition:all 0.4s ease;
+  }
+  .overlay nav a{
+    text-decoration:none;
+    color:#151723;
+    font-size: 30px;
+    height:70px;
+    display:block;
+    font-weight:bold;
+    transition: all 0.4s ease;
+  }
+  .overlay nav a:hover{
+    color:Black;
+    font-weight: bolder;
+    font-size:35px;
+  }
+  nav{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  .ham-menu div{
+    width: 30px;
+    height: 5px;
+    margin-bottom: 4px; 
+    background: black;
+    border-radius: 3px;
+  }
+  .ham-menu{
+    cursor: pointer;
+  }
+  .ham-menu{
+    background-color: red;
+  }
+  .container{
+    padding:9px;
+    padding-bottom: 3px;
+    width:30px;
+    height:30px;
+    background-color:#2FC2FD;
+    border-radius:45%;
+    box-shadow: 2px 2px 4px 2px #221E27; 
+    cursor: pointer;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .container:hover{
+    background-color: #2F51FD;
+  }
+  .container:hover >.ham-menu>div{
+    background-color:white;
+  }
+  #radio1:checked ~ .overlay{
+    width:100%;
+  }
+  .cross{
+    font-size: 40px;
+    font-weight:bold;
+    float:right;
+    margin:50px 150px;
+    cursor:pointer;
+    transition:all 0.3s ease;
+  }
+  .cross:hover{
+    font-size:45px;
+    color:Red;
+  }
+  input[type="radio"]{
+    display:none;
+  }
