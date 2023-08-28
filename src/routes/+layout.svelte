@@ -1,6 +1,7 @@
 <script>
     import Header from '$lib/Header.svelte';
     import Menu from '$lib/Menu.svelte';
+    import Nav from '$lib/nav.svelte';
     import Footer from '$lib/Footer.svelte';
 </script>
 
@@ -11,5 +12,6 @@
 
 
 <Menu />
+<!-- <Nav /> -->
 <slot />
 <Footer />

@@ -57,7 +57,6 @@ footer{
     transform: translate(-50%, -50%);
   }
   .ham-menu div{
-    width: 20px;
     height: 3px;
     margin-bottom: 4px; 
     background: black;
@@ -67,10 +66,9 @@ footer{
     cursor: pointer;
   }
   .container{
-    padding:9px;
-    padding-bottom: 3px;
-    width:30px;
-    height:30px;
+    padding:9px 0px;
+    width:20px;
+    height:17px;
     background-color:none;
     border-radius:45%;
     cursor: pointer;
@@ -98,8 +96,11 @@ footer{
   }
   .cross:hover{
     font-size:45px;
-    color:Red;
+    color:lavender;
   }
   input[type="radio"]{
     display:none;
   }
+
+ 
+ 
