@@ -10,6 +10,6 @@
 
 
 
-<Header />
+<Menu />
 <slot />
 <Footer />

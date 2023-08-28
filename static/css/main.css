@@ -27,27 +27,28 @@ footer{
    }
    .overlay{
     position:absolute;
-    background:#DAF7A6;
+    background-color:lightblue ;
     height:100%;
     width:100%;
     text-align: center;
      width:0px;
      overflow:hidden;
-     transition:all 0.4s ease;
+     transition:all 0.8s ease-in;
   }
   .overlay nav a{
     text-decoration:none;
-    color:#151723;
-    font-size: 30px;
-    height:70px;
+    padding: 5vh;
+    color:grey;
+    font-size: 10vh;
+    height:60px;
     display:block;
     font-weight:bold;
     transition: all 0.4s ease;
   }
   .overlay nav a:hover{
-    color:Black;
+    color:black;
     font-weight: bolder;
-    font-size:35px;
+    font-size:15vh;
   }
   nav{
     position:absolute;
@@ -56,8 +57,8 @@ footer{
     transform: translate(-50%, -50%);
   }
   .ham-menu div{
-    width: 30px;
-    height: 5px;
+    width: 20px;
+    height: 3px;
     margin-bottom: 4px; 
     background: black;
     border-radius: 3px;
@@ -65,24 +66,21 @@ footer{
   .ham-menu{
     cursor: pointer;
   }
-  .ham-menu{
-    background-color: red;
-  }
   .container{
     padding:9px;
     padding-bottom: 3px;
     width:30px;
     height:30px;
-    background-color:#2FC2FD;
+    background-color:none;
     border-radius:45%;
-    box-shadow: 2px 2px 4px 2px #221E27; 
     cursor: pointer;
-    position:relative;
-    left:50%;
+    position:sticky;
+    left:5%;
+    top:5%;
     transform: translateX(-50%);
   }
   .container:hover{
-    background-color: #2F51FD;
+    background-color: none;
   }
   .container:hover >.ham-menu>div{
     background-color:white;
@@ -93,8 +91,8 @@ footer{
   .cross{
     font-size: 40px;
     font-weight:bold;
-    float:right;
-    margin:50px 150px;
+    float:left;
+    margin:30px 30px;
     cursor:pointer;
     transition:all 0.3s ease;
   }

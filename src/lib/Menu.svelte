@@ -1,22 +1,23 @@
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">  -->
- <!-- <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-            <div>
-                <div>
-                    <ul>
-                        <li><a href="/">home</a></li>
-                        <li><a href="/about">about</a></li>
-                        <li><a href="/gallery">gallery</a></li>
-                        <li><a href="/map">map</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-   -->
-
+<input type="radio" name="toggle" id="radio1">
+  <div class="container">
+      <label for="radio1" class="ham-menu">
+          <div></div>
+          <div></div>
+          <div></div>
+       </label>
+  </div>
+  
+  <div class="overlay">
+    <input type="radio" name="toggle" id="radio2">
+    <label for="radio2" class="cross">X</label>
+    <nav>
+      <a href="/">home</a>
+      <a href="/gallery">gallery</a>
+      <a href="/timeline">timeline</a>
+      <a href="/map">map</a>
+      <a href="/about">about</a>
+    </nav>
+  </div>
 
 
 
