@@ -1,4 +1,4 @@
-h1, footer, .menu { /* absolutely need to rename, just placeholder for now! */
+h1, footer, .menu, .galleryOptions { /* absolutely need to rename, just placeholder for now! */
     font-size: 24px;
     /* color:mediumpurple; */
     /* font-style:italic; */
@@ -12,19 +12,14 @@ footer{
     display: flex;
     justify-content: center;
 }
+.main-page, .gallery-options{ /*NEED TO CHANGE!!!! JUST PLACE HOLDER FOR NOW!!!! */
+  padding: 44vh 45vw;
+}
 
 /* AHHHH */
 
-/* need to change colours, fonts, closing x, and need to figure out way to get menu to close when you click on an option */
+/* need to change colors, fonts, closing x, and need to figure out way to get menu to close when you click on an option */
 
-    .fillers{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    color:white;
-    text-align:center;
-   }
    .overlay{
     position:absolute;
     background-color:lightblue ;
@@ -74,7 +69,7 @@ footer{
     cursor: pointer;
     position:sticky;
     left:5%;
-    top:5%;
+    top:50vh;
     transform: translateX(-50%);
   }
   .container:hover{
