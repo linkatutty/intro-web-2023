@@ -1,3 +1,5 @@
+<!-- potential menu option -->
+
 <input type="radio" name="toggle" id="radio1">
   <div class="container">
       <label for="radio1" class="ham-menu">
@@ -19,6 +21,6 @@
     </nav>
   </div>
 
-
+<!-- attempt at copying canals menu and side nav bar -->
 
  
