@@ -31,6 +31,7 @@ footer{
      transition:all 0.8s ease-in;
   }
   .overlay nav a{
+    /* top: 50vh; */
     text-decoration:none;
     padding: 5vh;
     color:grey;
@@ -75,13 +76,13 @@ footer{
   .container:hover{
     background-color: none;
   }
-  .container:hover >.ham-menu>div{
-    background-color:white;
+  .container:hover >.ham-menu>div{ /* changes color of menu button on hover */
+    background-color:cornflowerblue;
   }
   #radio1:checked ~ .overlay{
     width:100%;
   }
-  .cross{
+  .cross{ /* the look and other scpects of the exit menu cross */
     font-size: 40px;
     font-weight:bold;
     float:left;
@@ -89,7 +90,7 @@ footer{
     cursor:pointer;
     transition:all 0.3s ease;
   }
-  .cross:hover{
+  .cross:hover{ /* changes color and aspects of the close menu cross on hover */
     font-size:45px;
     color:lavender;
   }
