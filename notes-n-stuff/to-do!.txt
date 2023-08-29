@@ -7,7 +7,7 @@ in spare time start compiling photos i like and getting information about locati
 
 make a cohesive comprehensive list of website elements i like, narrow down options of specific elements
 
-start defining aesthetics, colourway/pallet, animation, etc 
+start defining aesthetics, colorway/pallet, animation, etc 
 
 - watch the lectures!!!!
 - at least go through the moodle
@@ -17,17 +17,27 @@ start defining aesthetics, colourway/pallet, animation, etc
 --------------------------------
 
 - chose fonts
+        - from fonts api
 - chose final color scheme
 - start choosing photos
     - start identifying locations, dates, info about key locations etc.
+        - start also going through api for more photos
 - choose hamburger menu animation
     - apply chosen animation
-- 
 
 
-static background image, scroll-abel items in grid (have grid be transparent so image is visible through), have sticky side navbar with menu in it
+- static background image 
+- scroll-abel items in grid 
+    scroll-able as in when i scroll it moves?? what is that called??
+    (have grid be transparent so image is visible through)
+- have sticky side navbar with menu in it
+
+---- need to find out if how to incorporate an over lay??
+ i want the side bar to be sticky and have nothing under it??
+ can i make a grid element sticky or do i need to make it an over lay?? ----
 
 go to https://www.pexels.com/api/ 
-- learn how to connect an api- find photos i like that fit my theme
+- learn how to connect an api
+- find photos i like that fit my theme
 
 also fonts api, chose fonts i like etc etc
