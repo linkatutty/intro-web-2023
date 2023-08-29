@@ -1,4 +1,4 @@
-<nav id="nav">
+<!-- <nav id="nav">
     <div id="nav-bg">
         <div id="nav-bg-transparent" style="opacity :1;"></div>
         <div id="nav-bg-menu-color" style="opacity :0;"></div>
@@ -26,5 +26,5 @@
         </div>
     </div>
     
-</nav>
+</nav> -->
 
