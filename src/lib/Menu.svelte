@@ -11,7 +11,11 @@
   
   <div class="overlay">
     <input type="radio" name="toggle" id="radio2">
-    <label for="radio2" class="cross">X</label>
+    <div class="container">
+      <label for="radio2" class="cross"> 
+        <div></div>
+      </label>
+    </div>
     <nav>
       <a href="/">home</a>
       <a href="/gallery">gallery</a>

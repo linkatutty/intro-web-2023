@@ -58,7 +58,14 @@ footer{
     background: black;
     border-radius: 3px;
   }
-  .ham-menu{
+  .cross div{
+    height: 4px;
+    width: 20px;
+    margin-bottom: 4px; 
+    background: black;
+    border-radius: 3px;
+  }
+  .ham-menu, .cross{
     cursor: pointer;
   }
   .container{
@@ -82,14 +89,16 @@ footer{
   #radio1:checked ~ .overlay{
     width:100%;
   }
-  .cross{ /* the look and other scpects of the exit menu cross */
+  /* .cross{  
     font-size: 40px;
     font-weight:bold;
     float:left;
     margin:30px 30px;
     cursor:pointer;
     transition:all 0.3s ease;
-  }
+  } */
+  /*the look and other scpects of the exit menu cross */
+
   .cross:hover{ /* changes color and aspects of the close menu cross on hover */
     font-size:45px;
     color:lavender;
