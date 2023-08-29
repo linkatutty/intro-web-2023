@@ -89,15 +89,8 @@ footer{
   #radio1:checked ~ .overlay{
     width:100%;
   }
-  /* .cross{  
-    font-size: 40px;
-    font-weight:bold;
-    float:left;
-    margin:30px 30px;
-    cursor:pointer;
-    transition:all 0.3s ease;
-  } */
-  /*the look and other scpects of the exit menu cross */
+  
+  /*the look and other aspects of the exit menu cross */
 
   .cross:hover{ /* changes color and aspects of the close menu cross on hover */
     font-size:45px;
@@ -107,7 +100,7 @@ footer{
     display:none;
   }
 
- /* about page grid css */
+ /* -------------------- about page grid css ---------------------- */
 
  :root {
   --main-radius: 5px;

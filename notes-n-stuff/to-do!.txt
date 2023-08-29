@@ -25,5 +25,9 @@ start defining aesthetics, colourway/pallet, animation, etc
 - 
 
 
+static background image, scroll-abel items in grid (have grid be transparent so image is visible through), have sticky side navbar with menu in it
 
-static background image, scroll-abel items in grid (have grid be transparant so image is visible through), have sticky side navbar with menu in it
+go to https://www.pexels.com/api/ 
+- learn how to connect an api- find photos i like that fit my theme
+
+also fonts api, chose fonts i like etc etc
