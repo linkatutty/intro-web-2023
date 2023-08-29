@@ -23,3 +23,7 @@ start defining aesthetics, colourway/pallet, animation, etc
 - choose hamburger menu animation
     - apply chosen animation
 - 
+
+
+
+static background image, scroll-abel items in grid (have grid be transparant so image is visible through), have sticky side navbar with menu in it
