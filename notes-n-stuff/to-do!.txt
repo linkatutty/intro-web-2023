@@ -41,3 +41,9 @@ go to https://www.pexels.com/api/
 - find photos i like that fit my theme
 
 also fonts api, chose fonts i like etc etc
+
+
+
+-------------------------------------------
+with table in timeline, need to decide how viable it is to have photo appear with hover like shikoku site!
+-------------------------------------------
