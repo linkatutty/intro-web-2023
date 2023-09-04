@@ -1,6 +1,6 @@
 
 <div class="timeline-content">
-    <header class="timline-table-header">
+    <header class="timeline-table-header">
         <h1 class="timeline-table-title">timeline</h1>
     </header>
     <table class="timeline-table">

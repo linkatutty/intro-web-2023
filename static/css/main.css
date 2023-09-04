@@ -1,4 +1,4 @@
-h1, footer, .menu, .galleryOptions { /* absolutely need to rename, just placeholder for now! */
+h1, footer, .menu, .galleryOptions, .timeline-content { /* absolutely need to rename, just placeholder for now! */
     font-size: 24px;
     /* color:mediumpurple; */
     /* font-style:italic; */
@@ -25,7 +25,7 @@ footer{
     background-color:lightblue ;
     height:100%;
     width:100%;
-    text-align: center;
+    /* text-align: center; */
      width:0px;
      overflow:hidden;
      transition:all 0.8s ease-in;
@@ -33,10 +33,12 @@ footer{
   .overlay nav a{
     /* top: 50vh; */
     text-decoration:none;
-    padding: 5vh;
+    padding: 4vh 5vw 4vh 15vw;
     color:grey;
     font-size: 10vh;
-    height:60px;
+    top: 50vh;
+    left: 10vw;
+    height:10vh;
     display:block;
     font-weight:bold;
     transition: all 0.4s ease;
@@ -46,12 +48,12 @@ footer{
     font-weight: bolder;
     font-size:13vh;
   }
-  nav{
+  /* nav{
     position:absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-  }
+  } */
   .ham-menu div{
     height: 3px;
     margin-bottom: 4px; 
@@ -173,4 +175,10 @@ footer{
   }
 }
 
+/* ---------- timeline css ------------ */
+
+.timeline-table-header h1{
+  text-align: center;
+  font-size: 4vh;
+}
  
