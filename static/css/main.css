@@ -170,7 +170,10 @@ footer{
 }
 
 /* ---------- timeline css ------------ */
-
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 .timeline-content{
   width: 100%;
   display:flex;
@@ -215,5 +218,11 @@ table{
 }
 td{
   vertical-align: middle;
+}
+td a{
+  color: black;
+}
+.timeline-row-names_location{
+  text-align: left;
 }
  
