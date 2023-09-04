@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 h1, footer, .menu, .galleryOptions, .timeline-content { /* absolutely need to rename, just placeholder for now! */
     font-size: 24px;
     /* color:mediumpurple; */
@@ -21,12 +25,13 @@ footer{
 /* need to change colors, fonts, closing x, and need to figure out way to get menu to close when you click on an option */
 
    .overlay{
-    position:absolute;
+    position:fixed;
     background-color:lightblue ;
-    height:100%;
+    height:100vh;
+    top:0;
     width:100%;
     /* text-align: center; */
-     width:0px;
+     width:0;
      overflow:hidden;
      transition:all 0.8s ease-in;
   }
@@ -39,7 +44,6 @@ footer{
     top: 50vh;
     left: 10vw;
     height:10vh;
-    display:block;
     font-weight:bold;
     transition: all 0.4s ease;
   }
@@ -47,19 +51,18 @@ footer{
     color:black;
     font-weight: bolder;
     font-size:13vh;
-  }
-  .ham-menu div{
-    height: 3px;
+  }  
+  .ham-menu div,  .cross div{    
     margin-bottom: 4px; 
     background: black;
     border-radius: 3px;
+  }
+  .ham-menu div{
+    height: 3px;
   }
   .cross div{
     height: 4px;
     width: 20px;
-    margin-bottom: 4px; 
-    background: black;
-    border-radius: 3px;
   }
   .ham-menu, .cross{
     cursor: pointer;
@@ -225,7 +228,8 @@ td a{
 .timeline-row-names_location{
   text-align: left;
 }
-.1-grid{
+/* ------------------ gallery all ----------------- */
+.photo-grid{
   width: 100vw;
   display: grid;
   grid-template-columns: 1vw 2vw 4vw repeat(5, 1fr) 4vw 2vw 1vw;
