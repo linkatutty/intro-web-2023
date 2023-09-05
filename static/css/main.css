@@ -30,19 +30,18 @@ footer{
     height:100vh;
     top:0;
     width:100%;
-    /* text-align: center; */
-     width:0;
-     overflow:hidden;
-     transition:all 0.8s ease-in;
+      width: 0;
+      overflow:hidden;
+      transition:all 0.8s ease-in;
   }
   .overlay nav a{
-    /* top: 50vh; */
     text-decoration:none;
     padding: 4vh 5vw 4vh 15vw;
     color:grey;
     font-size: 10vh;
     top: 50vh;
     left: 10vw;
+    display: block; /* without display block, words try to fit into one line, need this to keep them on separate lines???? */
     height:10vh;
     font-weight:bold;
     transition: all 0.4s ease;

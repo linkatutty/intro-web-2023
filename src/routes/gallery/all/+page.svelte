@@ -14,7 +14,7 @@
 
     <div class="photo-grid">
         <div class="tokyo-photo x3-5 y0-4">
-            <img class="image_tokyo" src="japan-photo.png" alt="photo of a trip in japan"> 
+            <img class="image_tokyo" src="$/static/img/japan-photo.png" alt="photo of a trip in japan"> 
         </div>
     </div>
 </div>
