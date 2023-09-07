@@ -1,6 +1,6 @@
 <!-- potential menu option -->
 
-<input type="radio" name="toggle" id="radio1">
+<!-- <input type="radio" name="toggle" id="radio1">
   <div class="container">
       <label for="radio1" class="ham-menu">
         <div></div>
@@ -8,7 +8,16 @@
         <div></div>
       </label>
   </div>
-  
+-->
+
+<button type="button" class="menu-button">
+  <div class="menu-button-ellipsis">
+    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 128 512">
+    <path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg> 
+    <i class="fa-solid fa-ellipsis-vertical"></i>
+  </div>
+</button>
+
 <div class="overlay">
    <input type="radio" name="toggle" id="radio2">
   <div class="container">
@@ -22,17 +31,12 @@
      <li href="/gallery">gallery</li>
      <li href="/timeline">timeline</li>
      <li href="/map">map</li>
-      <li href="/about">about</li>
+     <li href="/about">about</li>
    </ul>
   </nav>
 </div>
 
 <!-- <div class="menu-button-cont">
-  <div class="menu-button">
-    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 128 512">
-    <path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg> 
-    <i class="fa-solid fa-ellipsis-vertical"></i>
-  </div>
 </div> -->
 
  

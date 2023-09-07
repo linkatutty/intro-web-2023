@@ -49,7 +49,12 @@ footer{
     font-weight: bolder;
     font-size:13vh;
   }  
-  .ham-menu div,  .cross div{    
+  /* .ham-menu div,  .cross div{    
+    margin-bottom: 4px; 
+    background: black;
+    border-radius: 3px;
+  } */
+  .menu-button,  .cross div{    
     margin-bottom: 4px; 
     background: black;
     border-radius: 3px;
