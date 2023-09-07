@@ -31,7 +31,8 @@
 <button type="button" class="menu-open-button">
   <div class="menu-open">
     <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 128 512">
-    <path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg> 
+      <path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/>
+    </svg> 
     <i class="fa-solid fa-ellipsis-vertical"></i>
   </div>
 </button>
@@ -40,7 +41,8 @@
    <button type="button" class="menu-close-button">
     <div class="menu-close">
       <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512">
-      <path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+        <path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/>
+      </svg>
       <i class="fa-solid fa-minus"></i>
     </div>
    </button>
