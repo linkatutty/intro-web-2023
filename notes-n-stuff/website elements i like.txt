@@ -111,3 +111,8 @@ HAVE MAIN GALLERY BE SEPARATED OUT LIKE SHIKOKU SITE INSTEAD OF MONOKAI!!!!
 HAVE IT SEPARATED INTO SECTIONS!!!!
 THAT WAY THE TIMELINE PAGE AND GALLERY PAGE CAN ACTUALLY REFERENCE SOMETHING!!!!
 -----------------------------------------
+
+
+
+https://fontawesome.com/icons/ellipsis-vertical?f=classic&s=light
+i want to use this font element for menu >:(

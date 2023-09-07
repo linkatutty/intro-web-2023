@@ -3,28 +3,36 @@
 <input type="radio" name="toggle" id="radio1">
   <div class="container">
       <label for="radio1" class="ham-menu">
-          <div></div>
-          <div></div>
-          <div></div>
-       </label>
-  </div>
-  
-  <div class="overlay">
-    <input type="radio" name="toggle" id="radio2">
-    <div class="container">
-      <label for="radio2" class="cross"> 
+        <div></div>
+        <div></div>
         <div></div>
       </label>
-    </div>
-    <nav>
-      <a href="/">home</a>
-      <a href="/gallery">gallery</a>
-      <a href="/timeline">timeline</a>
-      <a href="/map">map</a>
-      <a href="/about">about</a>
-    </nav>
   </div>
+  
+<div class="overlay">
+   <input type="radio" name="toggle" id="radio2">
+  <div class="container">
+    <label for="radio2" class="cross"> 
+      <div></div>
+    </label>
+  </div>
+  <nav>
+   <ul class="menu-list">
+     <li href="/">home</li>
+     <li href="/gallery">gallery</li>
+     <li href="/timeline">timeline</li>
+     <li href="/map">map</li>
+      <li href="/about">about</li>
+   </ul>
+  </nav>
+</div>
 
-<!-- attempt at copying canals menu and side nav bar -->
+<!-- <div class="menu-button-cont">
+  <div class="menu-button">
+    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 128 512">
+    <path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg> 
+    <i class="fa-solid fa-ellipsis-vertical"></i>
+  </div>
+</div> -->
 
  

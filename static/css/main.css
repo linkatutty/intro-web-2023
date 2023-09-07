@@ -29,24 +29,22 @@ footer{
     background-color:lightblue ;
     height:100vh;
     top:0;
-    width:100%;
-      width: 0;
-      overflow:hidden;
-      transition:all 0.8s ease-in;
+    width: 0;
+    overflow:hidden;
+    transition:all 0.8s ease-in;
   }
-  .overlay nav a{
+  .overlay nav ul li{
     text-decoration:none;
     padding: 4vh 5vw 4vh 15vw;
     color:grey;
     font-size: 10vh;
     top: 50vh;
     left: 10vw;
-    display: block; /* without display block, words try to fit into one line, need this to keep them on separate lines???? */
     height:10vh;
     font-weight:bold;
     transition: all 0.4s ease;
   }
-  .overlay nav a:hover{
+  .overlay nav ul li:hover{
     color:black;
     font-weight: bolder;
     font-size:13vh;
@@ -237,4 +235,15 @@ td a{
   grid-gap: 1.5vw;
   margin-bottom: 1.5vw;
 }
+.photo-grid .x3-5{
+  /* grid-column: 4/span 5; */
+  grid-column-start: 4;
+  grid-column-end: span 5;
+}
+.photo-grid .y0-4{
+  /* grid-row: 1/span 4; */
+  grid-row-start: 1;
+  grid-row-end: span 4;
+}
+
  

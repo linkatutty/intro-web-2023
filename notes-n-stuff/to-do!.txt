@@ -47,3 +47,15 @@ also fonts api, chose fonts i like etc etc
 -------------------------------------------
 with table in timeline, need to decide how viable it is to have photo appear with hover like shikoku site!
 -------------------------------------------
+
+08-09
+
+- change hamburger to font element?
+    - also make it a button
+- find out why removing display block in css changes things (in .overlay nav a)
+- make table look nicer
+- figure out how to put pictures in grid
+
+
+
+when using javascript, do you use double or single quotes?
