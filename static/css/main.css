@@ -68,7 +68,7 @@ button{
   top:50vh;
   transform: translateX(-50%);
 }
-.menu-button,open:checked ~ .menu-overlay{
+.menu-button:checked ~ .menu-overlay{
   width:100%;
 }
  /* -------------------- about page grid css ---------------------- */
