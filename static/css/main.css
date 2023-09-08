@@ -33,6 +33,18 @@ footer{
   overflow:hidden;
   transition:all 0.8s ease-in;
 }
+/* .menu-open-button{
+  top: 50%;
+
+
+} */
+button{ 
+  /* i dont know if any of this does anything and i am too tired to check! */
+  cursor: pointer;
+  background: none;
+  border-radius: 3px;
+  border-color: none;
+}
 .menu-overlay nav ul li{
   text-decoration:none;
   padding: 4vh 5vw 4vh 15vw;
@@ -49,13 +61,6 @@ footer{
   font-weight: bolder;
   font-size:13vh;
 }  
-/* button{    
-  margin-bottom: 4px; 
-  height: 4px;
-  width: 10px;
-  background: black;
-  border-radius: 3px;
-} */
 .menu-button-close{
   padding:9px 0px;
   width:20px;
@@ -68,7 +73,7 @@ footer{
   top:50vh;
   transform: translateX(-50%);
 }
-.menu-button:checked ~ .menu-overlay{
+.menu-open-button:checked ~ .menu-overlay{
   width:100%;
 }
  /* -------------------- about page grid css ---------------------- */
