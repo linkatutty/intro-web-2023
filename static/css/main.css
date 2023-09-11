@@ -23,28 +23,37 @@ footer{
 /* AHHHH */
 
 /* -------------- menu css -------------- */
- 
+
+.menu-button-open{
+  padding:4px;
+  cursor: pointer;
+  position:sticky;
+  left:28px;
+  top:50%;
+  font-size: 34px;
+  background: none;
+  border: none;
+}
 .menu-overlay{
   position:fixed;
   background-color:lightblue ;
-  height:100vh;
+  /* height:100vh; */
   top:0;
-  width: 0;
+  width: 100%;
+    width: 0%;
+  /* width: 0; */
+  /* either use display none or width zero? */
+  /* display: none; */
   overflow:hidden;
   transition:all 0.8s ease-in;
 }
-/* .menu-open-button{
-  top: 50%;
-
-
-} */
-button{ 
-  /* i dont know if any of this does anything and i am too tired to check! */
+/* .button type[button]{ 
+  i dont know if any of this does anything and i am too tired to check!
   cursor: pointer;
   background: none;
   border-radius: 3px;
   border-color: none;
-}
+} */
 .menu-overlay nav ul li{
   text-decoration:none;
   padding: 4vh 5vw 4vh 15vw;
@@ -63,19 +72,16 @@ button{
 }  
 .menu-button-close{
   padding:9px 0px;
-  width:20px;
-  height:17px;
   background-color:none;
-  border-radius:45%;
   cursor: pointer;
   position:sticky;
   left:5%;
   top:50vh;
   transform: translateX(-50%);
 }
-.menu-open-button:checked ~ .menu-overlay{
-  width:100%;
-}
+/* .menu-open:checked ~ .menu-overlay{
+  display: all;
+} */
  /* -------------------- about page grid css ---------------------- */
 
  :root {
