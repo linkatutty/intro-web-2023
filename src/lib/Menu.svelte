@@ -28,30 +28,32 @@
 </div>
 -->
 
-<button type="button" class="menu-button-open">
-  <div class="menu-open">
-    <i class="fa-solid fa-ellipsis-vertical"></i>
-  </div>
-</button>
 
-<div class="menu-overlay">
-   <button type="button" class="menu-button-close">
-    <div class="menu-close">
-      <i class="fa-solid fa-minus"></i>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+<div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+    <div class="hamburger">
+      <i class="fa-solid fa-ellipsis-vertical"/>
     </div>
-   </button>
-  <nav>
-   <ul class="menu-list">
-     <li href="/">home</li>
-     <li href="/gallery">gallery</li>
-     <!-- the dots before the words are still visible, need to remove in css
-    links also dont take to page so much also be fixed -->
-     <li href="/timeline">timeline</li>
-     <li href="/map">map</li>
-     <li href="/about">about</li>
-   </ul>
-  </nav>
+    <div class="menu">
+      <div>
+        <div>
+           <ul>
+             <li><a href="/">home</a></li>
+             <li><a href="/gallery">gallery</a></li>
+             <li><a href="/map">map</a></li>
+             <li><a href="/timeline">timeline</a></li>
+             <li><a href="/about">about</a></li>
+           </ul>
+           <div class="menu-close">
+            <i class="fa-solid fa-minus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
+
 
 <!-- <div class="menu-button-cont">
 </div> -->

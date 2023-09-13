@@ -114,11 +114,12 @@
     background: black;
     border-radius: 3px;
   } */
-  .menu-button,  .cross div{    
+  .ham-menu,  .cross div{    
     margin-bottom: 4px; 
     height: 4px;
     width: 10px;
     background: black;
+    color: black;
     border-radius: 3px;
   }
   /* .ham-menu div{
