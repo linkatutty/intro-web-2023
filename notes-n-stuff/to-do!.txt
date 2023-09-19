@@ -58,4 +58,9 @@ with table in timeline, need to decide how viable it is to have photo appear wit
 
 
 
-when using javascript, do you use double or single quotes?
+----------------------------------------------------------------
+
+check svelte multiple conditional classes, make menu-close like that?
+set to false adn then when button on click make true so visible
+
+--------------------------------------------------------------
