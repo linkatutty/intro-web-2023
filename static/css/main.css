@@ -43,29 +43,34 @@ footer{
 }
 .menu-wrap .toggler{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50vh;
+  left: 10px;
   z-index: 2;
+  width: 40px;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  height: 40px;
   opacity: 0;
 }
-.menu-wrap .hamburger{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 60px;
-  height: 60px;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.menu-open, .menu-close{
+position: absolute;
+top: 50vh;
+left: 10px;
+z-index: 1;
+font-size: 20px;
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.menu-close{
+visibility:hidden;
 }
 /* Show menu */
-.menu-wrap .toggler:checked ~ .menu{
-  visibility: visible;
+.menu-open, .menu-wrap .toggler:checked ~ .menu, .menu-wrap .toggler:checked ~ .menu-close{
+visibility: visible;
+}
+.menu-wrap .toggler:checked ~ .menu-open{
+visibility: hidden;
 }
 .menu-wrap .toggler:checked ~ .menu > div{
   transform: scale(1);
