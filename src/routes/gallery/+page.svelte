@@ -1,7 +1,7 @@
 <div class="gallery-options">
     <div class="galleryOptions">
-        <a href="/favorites">favorites</a>
-        <a href="/location">location</a>
-        <a href="/all">all</a>
+        <li><a href="/favorites">favorites</a></li>
+        <li><a href="/location">location</a></li>
+        <li><a href="/all">all</a></li>
     </div>
 </div>

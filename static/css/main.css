@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
 body{
   margin: 0;
-  background-color: #004d40;
+  /* background-color: #004d40; */
 }
 
 h1, footer, .menu, .galleryOptions, .timeline-content { /* absolutely need to rename, just placeholder for now! */
@@ -224,10 +229,6 @@ justify-content: center;
 }
 
 /* ---------- timeline css ------------ */
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
 
 .timeline-content{
   width: 100%;
@@ -290,6 +291,11 @@ td a{
   text-align: left;
 }
 
+/* ------------------ gallery ----------------- */
+
+.gallery-options .galleryOptions{
+  list-style: none;
+}
 /* ------------------ gallery all ----------------- */
 .photo-grid{
   width: 100vw;
