@@ -13,9 +13,9 @@
     </div>
 
     <div class="photo-grid">
-        <div class="tokyo-photo x3-5 y0-4">
+        <div class="japan-photo x3-5 y0-4">
             <!-- svelte-ignore a11y-img-redundant-alt -->
-            <img class="image_tokyo" src="$static/img/japan-photo.png" alt="photo of a trip in japan"> 
+            <img class="image_tokyo photo" src="/img/japan-photo.png" alt="photo of a trip in japan"> 
         </div>
     </div>
 </div>

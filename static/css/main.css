@@ -301,14 +301,24 @@ td a{
   width: 100vw;
   display: grid;
   grid-template-columns: 1vw 2vw 4vw repeat(5, 1fr) 4vw 2vw 1vw;
+  grid-template-rows: 14.2vw;
   grid-auto-rows: 14.2vw;
   grid-auto-flow: row;
   grid-gap: 1.5vw;
   margin-bottom: 1.5vw;
 }
 
+.photo{
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  object-position: 0 center;
+}
+
 .photo-grid .x3-5{
-  /* grid-column: 4/span 5; */
+  /* grid-column: 4/span 5;  */
   grid-column-start: 4;
   grid-column-end: span 5;
 }
@@ -316,7 +326,7 @@ td a{
 .photo-grid .y0-4{
   /* grid-row: 1/span 4; */
   grid-row-start: 1;
-  grid-row-end: span 4;
+  grid-row-end: span 4; 
 }
 
  
