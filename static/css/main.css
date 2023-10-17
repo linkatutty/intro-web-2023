@@ -315,18 +315,46 @@ td a{
   max-height: 100%;
   max-width: 100%;
   object-position: 0 center;
+  position: relative;
 }
 
 .photo-grid .x3-5{
-  /* grid-column: 4/span 5;  */
   grid-column-start: 4;
   grid-column-end: span 5;
 }
 
+.photo-grid .x1-5{
+  grid-column-start: 2;
+  grid-column-end: span 5;
+}
+
+.photo-grid .x4-4{
+  grid-column-start: 5;
+  grid-column-end: span 4;
+}
+
+.photo-grid .x6-4{
+  grid-column-start: 7;
+  grid-column-end: span 4;
+}
+
 .photo-grid .y0-4{
-  /* grid-row: 1/span 4; */
   grid-row-start: 1;
   grid-row-end: span 4; 
 }
 
+.photo-grid .y1-3{
+  grid-row-start: 2;
+  grid-row-end: span 3; 
+}
+
+.photo-grid .y2-2{
+  grid-row-start: 3;
+  grid-row-end: span 2; 
+}
+
+.photo-grid .y4-3{
+  grid-row-start: 5;
+  grid-row-end: span 3;
+}
  
