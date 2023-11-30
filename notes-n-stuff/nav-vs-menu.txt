@@ -1,2 +1,0 @@
-put burger stuff in nav with sidebar stuff
-put menu content in menu

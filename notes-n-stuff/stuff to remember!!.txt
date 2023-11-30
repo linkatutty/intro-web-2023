@@ -1,7 +1,0 @@
-npm install
-
-download svelte extension
-
-turn on auto-save
-
-make sure i have node installed if on new device
