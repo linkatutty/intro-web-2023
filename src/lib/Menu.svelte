@@ -11,15 +11,13 @@
         <ul>
           <li><a href="/">home</a></li>
           <li><a href="/gallery">gallery</a></li>
-          <li><a href="/map">map</a></li>
-          <li><a href="/timeline">timeline</a></li>
           <li><a href="/about">about</a></li>
         </ul>
       </div>
     </div>
   </div>
+  <div class="menu-close">
+    <i class="fa-solid fa-minus"></i>
+  </div>
 </div>
   
-<div class="menu-close">
-  <i class="fa-solid fa-minus"></i>
-</div>
